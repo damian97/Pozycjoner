@@ -59,7 +59,6 @@ class OknoApki extends JPanel {
             colorR.setBounds(30, 120, 50, 25);
             add(colorR);
 
-
             colorG.setBounds(90, 120, 50, 25);
             add(colorG);
 
@@ -93,7 +92,7 @@ class OknoApki extends JPanel {
 
     }
 
-    public void refresh() {
+    public void refreshPos() {
 
         PointerInfo pi = MouseInfo.getPointerInfo();
         Point p = pi.getLocation();
@@ -137,7 +136,7 @@ public class Main {
         ramka.pack();
 
         while (true) {
-            oa.refresh();
+            oa.refreshPos();
             oa.refreshColors();
             Thread.sleep(50);
 
