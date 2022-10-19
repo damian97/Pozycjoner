@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="PozycjaKursora:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/PozycjaKursora_jar</output-path>
+    <root id="archive" name="PozycjaKursora.jar">
+      <element id="module-output" name="PozycjaKursora" />
+    </root>
+  </artifact>
+</component>
